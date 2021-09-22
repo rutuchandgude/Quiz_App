@@ -1,3 +1,4 @@
+
 var readlineSync=require("readline-sync");
 var score=0;
 var userName=readlineSync.question("What is your name? ");
@@ -69,6 +70,16 @@ var questions=[
  question:"Who is founder of Apple? ",
  answer:"Steve Jobs",
  answer:"steve job",
+},
+{
+ question:"Who is owner of flipcard? ",
+ answer:"Sachin Bansal",
+ answer:"sachin bansal",
+},
+{
+ question:"Who is founder of Tesla? ",
+ answer:"Elon Musk",
+ answer:"elon musk",
 }]
 //loop
 for(var i=0;i<questions.length;i++)
